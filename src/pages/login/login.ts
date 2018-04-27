@@ -3,7 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { UserPage } from '../user/user';
 
-@IonicPage()
 
 @Component({
   selector: 'page-login',

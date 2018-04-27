@@ -8,7 +8,7 @@ declare var google: any;
 @Injectable()
 export class MarksProvider {
 
-
+  test;
   options = { // postion to start on google maps
     center: {
       lat: 31.898043,

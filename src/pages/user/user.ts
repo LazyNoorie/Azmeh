@@ -3,7 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MarksProvider } from '../../providers/marks/marks';
 
 
-@IonicPage()
 @Component({
   selector: 'page-user',
   templateUrl: 'user.html',
