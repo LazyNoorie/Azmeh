@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Azmeh
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p-gmap (onOverlayClick)="setCity($event)" [options]="options" [style]="{'width':'100%','height':'320px'}" [overlays]="overlays"></p-gmap>
+  <div style="margin-top: 25px" *ngIf="Selected">
+    <div *ngFor="let c of comment.comments">
+      {{c.time}} {{c.comment}}
+    </div>
+  </div>
+</ion-content>
